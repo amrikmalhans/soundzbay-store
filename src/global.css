@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-size: 100%;
+}
+
+body {
+    font-family: 'Lato', sans-serif;
+}
+
+.snipcart-items-count {
+    font-size: .7rem;
+    color: red;
+    position: absolute;
+    right: 70%;
+    transform: translate(-70%);
+    background-color: #fafafa;
+    border-radius: 100%;
+    padding: .1rem;
+    padding-left: .3em;
+    padding-right: .3em;
+    font-weight: 600;
+
+}

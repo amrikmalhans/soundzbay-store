@@ -1,0 +1,43 @@
+.header {
+    height: 100vh;
+    background:  linear-gradient(
+        rgba(0, 0, 0, 0.7), 
+        rgba(0, 0, 0, 0.7)
+      ), url('../components/bg.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    clip-path: ellipse(100% 56.8% at 46% 44%);    
+}
+
+.box {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    line-height: 2.3rem;
+    text-align: center;
+}
+
+.box h1 {
+    font-size: 7rem;
+    font-family: 'Lato', sans-serif;
+    color: #fafafa;
+    text-transform: uppercase;
+}
+
+.box p {
+    color: #fafafa;
+    text-transform: capitalize;
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+.box a {
+    text-decoration: none;
+    color: #fafafa;
+    padding: 10px 16px;
+    background-color: #ff2a24;
+    border-radius: 100px;
+    font-size: 1.2rem;
+}
