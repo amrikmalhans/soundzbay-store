@@ -7,15 +7,14 @@
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    clip-path: ellipse(100% 56.8% at 46% 44%);    
+    clip-path: polygon(0 0, 100% 0, 100% 75vh, 0 100%);
 }
 
 .box {
     position: absolute;
-    top: 50%;
+    top: 40%;
     left: 50%;
-    transform: translate(-50%, -50%);
-    line-height: 2.3rem;
+    transform: translate(-50%, -40%);
     text-align: center;
 }
 

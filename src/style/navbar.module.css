@@ -1,0 +1,23 @@
+.navbar {
+    display: flex;
+    max-height: 10vh;
+    justify-content: space-between;
+    background-color: transparent;
+    position: fixed;
+    z-index: 2;
+    width: 100%;
+}
+
+.navLinks {
+    display: flex;
+    list-style: none;
+    width: 40%;
+    height: 10vh;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.navLinks a {
+    text-decoration: none;
+    color: #fafafa;
+}
